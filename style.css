@@ -62,7 +62,7 @@ footer {
 	bottom:0;
 	left:0;
 	width:100%;
-	padding-top:50px;
+	padding-top:10px;
 	text-align:center;
 	border-top: thick solid teal;
     color: white;
@@ -85,15 +85,17 @@ img:not(#portpic) {
 }
 h5 {
     position: absolute;
-	background-color:teal;
-    padding-top: 10px;
-    padding-bottom: 10px;
+	background-color:teal;;
     color:white;
     text-align: center;
     width: 100%;
     left: 0%;
-    top: 73%;
+    top: 80%;
 }
 .mediabody {
-    
+    position:absolute;
+    background-color:teal;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index:1;
 }
