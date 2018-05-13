@@ -14,7 +14,10 @@ a:hover {
 .navbar {
     background: white;
     border-bottom:thick solid #cccccc;
-    padding:0px
+    padding:0px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 .navbar-brand {
     background-color:teal;
