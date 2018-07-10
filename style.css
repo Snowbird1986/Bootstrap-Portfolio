@@ -85,6 +85,7 @@ footer {
 img:not(#portpic) {
     width: 100%;
     margin: 10px;
+    height: 100%;
 }
 h5 {
     position: absolute;
